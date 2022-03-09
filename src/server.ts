@@ -1,7 +1,7 @@
 import swaggerUi from 'swagger-ui-express'
 import './database'
 import './shared/container'
-import express, { NextFunction } from "express"
+import express, { Request,Response,NextFunction } from "express"
 import "express-async-errors"
 import { router } from "./routes"
 import swaggerFile from './swagger.json'
